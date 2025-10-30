@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #344b46;
+}
+
+.message {
+    margin: 0px auto;
+    margin-top: 30px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #97b1ab;
+    
+}
+
+.card p {
+    margin: 10px 0;
+    color: #344b46;
+}
+
+h2 {
+    color: #006b5e;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img.rounded-circle.profile {
+    border: 3px solid #97b1ab;
+    padding: 4px;
+    object-fit: cover;
+    background-color: #f5f5f5;
+}
+
+.btn-warning {
+    background-color: #F3D457 !important;
+    color: #344b46;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-warning:hover {
+    background-color: #af9e69;
+    color: #fff;
+    transform: scale(1.02);
+}
+
+.btn-warning:active {
+    background-color: #af9e69; 
+    transform: scale(0.95);
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #344b46;
+}
+
+.form-control, .form-control-file, textarea {
+    border: 1px solid #97b1ab;
+    border-radius: 4px;
+    color: #344b46;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.form-control:focus, .form-control-file:focus {
+    border-color: #006b5e;
+    box-shadow: 0 0 4px rgba(0, 107, 94, 0.3);
+}
+
+.alert-success {
+    border: none;
+    text-align: center;
+}
+
+#profile-form {
+    transition: all 0.3s ease-in-out;
+}
+
+.user-detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-detail p {
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+
+.user-detail p strong {
+    flex-shrink: 0;
+    margin-right: 5px;
+    text-align: left;
+    width: 150px;
+}
+
+.user-detail p span {
+    flex-grow: 1;
+}

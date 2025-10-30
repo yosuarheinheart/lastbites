@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #344b46;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100%;
+}
+
+.card-img-top {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card.inactive {
+    opacity: 0.6;
+    pointer-events: none; 
+}
+
+.card-title, 
+.card-text {
+    color: #344b46;
+}
+
+.star-yellow {
+    color: #ffc107;
+}
+.star-grey {
+    color: #ddd; 
+}
+
+.btn-chat {
+    background-color: #F3D457;
+    color: #344b46;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-chat:hover {
+    background-color: #af9e69;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.btn-chat:active {
+    background-color: #af9e69;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.btn-add {
+    background-color: #006b5e;
+    color: #fff; 
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-add:hover {
+    background-color: #344b46;
+    transform: scale(1.05);
+}
+
+.btn-add:active {
+    background-color: #af9e69; 
+    transform: scale(0.95);
+}
+
+/* .btn-add.disabled {
+    background-color: #ddd; 
+    color: #bbb;S
+    cursor: not-allowed;
+} */
+
+.btn-remove {
+    background-color: #b0303b;
+    color: #fff; 
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-remove:hover {
+    background-color: #574240;
+    transform: scale(1.05);
+}
+
+.btn-remove:active {
+    background-color: #574240; 
+    transform: scale(0.95);
+}
+
+/* .btn-remove.disabled {
+    background-color: #ddd; 
+    color: #bbb;
+    cursor: not-allowed;
+} */
+
+.btn-link {
+    color: #006b5e;
+}
+
+.btn-link:hover {
+    color: #344b46;
+}
+
+.btn-back {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 1000;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 1);
+}
+
+.floating-cart-button {
+    position: fixed;
+    bottom: 60px;
+    right: 40px;
+}
+
+.floating-cart-button .btn-cart {
+    background-color: #F3D457;
+    color: #344b46;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.floating-cart-button .btn-cart:hover {
+    background-color: #af9e69;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.floating-cart-button .btn-cart:active {
+    background-color: #af9e69; 
+    transform: scale(0.95);
+}
+
+.review {
+    background-color: #ffffff;
+    color: #344b46;
+}
+
+.text-danger {
+    font-weight: bold;
+    font-size: 14px;
+    color: #b0303b; 
+}
+
+.card.inactive {
+    opacity: 0.6;
+    pointer-events: none; /* Disable interactions for inactive products */
+    filter: grayscale(100%); /* Optional: Make it look more visually distinct */
+}

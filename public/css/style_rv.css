@@ -1,0 +1,95 @@
+body {
+    padding-top: 50px; 
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Arial', sans-serif;
+    color: #344b46;
+}
+
+body {
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h3, h4 {
+    color: #006b5e !important; 
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.star-rating {
+    color: #FFD700;
+    font-size: 1.2em;
+}
+
+.review-header {
+    font-weight: bold;
+}
+
+.review-details {
+    color: #6c757d;
+    font-size: 0.9em;
+}
+
+.review {
+    background-color: #ffffff;
+    border: 1px solid #97b1ab;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+    color: #344b46;
+}
+
+.btn-link {
+    color: #006b5e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+.btn-primary {
+    background-color: #006b5e !important;
+    border: none !important;
+    color: #ffffff ;
+    padding: 10px 15px !;
+    border-radius: 4px !important;
+    font-size: 14px !important;
+    font-weight: bold ;
+    cursor: pointer !important;
+}
+
+.btn-primary:hover {
+    background-color: #344b46 !important;
+}
+
+.mt-4 {
+    margin-top: 20px;
+}
+
+.mt-3 {
+    margin-top: 15px;
+}
+
+.text-danger {
+    color: #e74c3c;
+}

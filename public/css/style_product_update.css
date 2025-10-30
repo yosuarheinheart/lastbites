@@ -1,0 +1,111 @@
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    color: #344b46;
+}
+
+h2 {
+    color: #006b5e;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #97b1ab;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #344b46;
+}
+
+.form-control, 
+.form-control-file, 
+.form-control:focus {
+    border: 1px solid #97b1ab;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+select.form-control {
+    background-color: #f9f9f9;
+}
+
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #ffffff;
+    background-color: #006b5e;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    max-width: 100px;
+}
+
+.back-button:hover {
+    background-color: #344b46;
+    color: #ffffff;
+}
+
+.back-button svg {
+    margin-right: 5px;
+}
+
+.back-button span {
+    font-weight: bold;
+}
+
+.btn-save {
+    background-color: #006b5e;
+    color: #fff; 
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-save:hover {
+    background-color: #344b46;
+    transform: scale(1.02);
+}
+
+.btn-save:active {
+    background-color: #af9e69; 
+    transform: scale(0.95);
+}
+
+.form-control-file {
+    color: #97b1ab;
+}
+
+.form-control-file:hover {
+    color: #006b5e;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #006b5e !important;
+    border:none !important;
+    padding:10px 15px !important;
+    border-radius: 4px !important;
+    font-size: 14px !important;
+    cursor: pointer !important;
+}
